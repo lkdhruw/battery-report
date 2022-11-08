@@ -11,4 +11,4 @@ echo %mytime%_%mydate%
 ::pause
 git add .
 git commit -m "Generated on %mytime%_%mydate%"
-git push -u origin main
+git push --force -u origin main
